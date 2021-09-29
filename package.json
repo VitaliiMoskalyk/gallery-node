@@ -1,0 +1,26 @@
+{
+  "name": "gallery-node",
+  "version": "1.0.0",
+  "description": "gallery ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitaliiMoskalyk/gallery-node.git"
+  },
+  "author": "Vitalii (vitalikmoskalik@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitaliiMoskalyk/gallery-node/issues"
+  },
+  "homepage": "https://github.com/VitaliiMoskalyk/gallery-node#readme",
+  "dependencies": {
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
