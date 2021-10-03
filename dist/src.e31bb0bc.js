@@ -217,13 +217,24 @@ function buttonsIventOnModalOpen(event) {
 
   ;
 }
+},{}],"js/form-listen.js":[function(require,module,exports) {
+var openForm = document.querySelector('.form-listen');
+openForm.addEventListener('click', openFormEvent);
+var markUp = "\n<form>\n  <div class=\"mb-3\">\n    <label for=\"exampleInputEmail1\" class=\"form-label\">Email address</label>\n    <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail1\" aria-describedby=\"emailHelp\">\n    <div id=\"emailHelp\" class=\"form-text\">We'll never share your email with anyone else.</div>\n  </div>\n  <div class=\"mb-3\">\n    <label for=\"exampleInputPassword1\" class=\"form-label\">Password</label>\n    <input type=\"password\" class=\"form-control\" id=\"exampleInputPassword1\">\n  </div>\n  <div class=\"mb-3 form-check\">\n    <input type=\"checkbox\" class=\"form-check-input\" id=\"exampleCheck1\">\n    <label class=\"form-check-label\" for=\"exampleCheck1\">Check me out</label>\n  </div>\n  <button type=\"submit\" class=\"btn btn-primary\">Submit</button>\n</form>\n";
+
+function openFormEvent() {
+  openForm.insertAdjacentHTML('afterend', markUp);
+  openForm.removeEventListener('click', openFormEvent);
+}
 },{}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _creating_markup = _interopRequireDefault(require("./js/creating_markup"));
 
+var _formListen = _interopRequireDefault(require("./js/form-listen"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-},{"./js/creating_markup":"js/creating_markup.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./js/creating_markup":"js/creating_markup.js","./js/form-listen":"js/form-listen.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -251,7 +262,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56750" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61476" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

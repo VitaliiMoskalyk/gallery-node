@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/VitaliiMoskalyk/gallery-node#readme",
   "dependencies": {
+    "push-to-git": "^1.1.4",
     "validator": "^13.6.0"
   },
   "devDependencies": {
