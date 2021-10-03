@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/VitaliiMoskalyk/gallery-node/issues"
   },
-  "homepage": "https://github.com/VitaliiMoskalyk/gallery-node#readme",
+  "homepage": "https://github.com/VitaliiMoskalyk/gallery-node",
   "dependencies": {
     "push-to-git": "^1.1.4",
     "validator": "^13.6.0"
