@@ -1,3 +1,3 @@
-import '../src/js/creating_markup';
-import '../src/js/form-listen';
+import './js/creating_markup';
+import './js/form-listen';
 

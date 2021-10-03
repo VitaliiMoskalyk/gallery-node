@@ -229,10 +229,10 @@ function openFormEvent() {
 },{}],"src/index.js":[function(require,module,exports) {
 "use strict";
 
-require("../src/js/creating_markup");
+require("./js/creating_markup");
 
-require("../src/js/form-listen");
-},{"../src/js/creating_markup":"src/js/creating_markup.js","../src/js/form-listen":"src/js/form-listen.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+require("./js/form-listen");
+},{"./js/creating_markup":"src/js/creating_markup.js","./js/form-listen":"src/js/form-listen.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
