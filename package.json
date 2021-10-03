@@ -4,8 +4,8 @@
   "description": "gallery ",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html --public-url ./gallery-node/"
+    "dev": "parcel ./index.html",
+    "build": "parcel build ./index.html --public-url ./gallery-node/"
   },
   "repository": {
     "type": "git",
