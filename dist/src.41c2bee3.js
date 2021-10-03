@@ -5,4 +5,4 @@ var e=document.querySelector(".form-listen");e.addEventListener("click",a);var l
 },{}],"H99C":[function(require,module,exports) {
 "use strict";require("../src/js/creating_markup"),require("../src/js/form-listen");
 },{"../src/js/creating_markup":"oGlk","../src/js/form-listen":"OxpV"}]},{},["H99C"], null)
-//# sourceMappingURL=/gallery-node/src.41c2bee3.js.map
+//# sourceMappingURL=gallery-node/src.41c2bee3.js.map
